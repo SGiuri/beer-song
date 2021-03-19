@@ -14,8 +14,7 @@ def recite(start, take=1):
     if number_of_bottles > 2:
         plural_1 = "s"
         plural_2 = "s"
-    if number_of_bottles-1 > 1:
-        plural_2 = "s"
+
     verse = f"{number_of_bottles} bottle{plural_1} of beer on the wall, " \
             f"{number_of_bottles} bottle{plural_1} of beer.\n" \
             f"Take it down and pass it around," \
